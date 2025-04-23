@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Press Start 2P', cursive; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('MV5BMzE0ZDU1MzQtNTNlYS00YjNlLWE2ODktZmFmNDYzMTBlZTBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 32px;
+    color: #ffcb05; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ffcb05; 
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #333;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #ffcb05;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff8c00; 
+}
+
+
+.pokemon-data {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-card {
+    background-color: #fff;
+    border: 2px solid #ffcb05; 
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ffcb05; 
+}
+
+.pokemon-card p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    input[type="text"] {
+        width: 80%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
